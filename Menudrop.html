@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	
+    <title>Site de Maquiagem</title>
+    <meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../../../../Working%20files/PIETRA%20ALVES/Exercício%20prático%20-%20Menu%20Dropdown%20com%20Ícone/menudrop.css">
+	<link rel="icon" href="../../../../Working%20files/PIETRA%20ALVES/Exercício%20prático%20-%20Menu%20Dropdown%20com%20Ícone/make.jpg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+	   * {
+			margin:0;
+			padding: 0;
+		}
+		
+	 body {
+	    background-color: Plum;
+		}
+		
+     .divi ul li {
+	    background-color: DarkMagenta; 
+	    width: 360px;
+	    float: left;
+		display: inline-block;
+		font-size: 20px;
+		text-align: center;
+		line-height: 40px;
+		}
+	 .divi ul ul {
+			display: none;
+		}
+		
+	 .divi ul li:hover{
+			background-color: Plum;
+		}
+	
+	 .divi ul li:hover ul {
+			display: block;
+		} 
+	</style>
+ 
+</head>
+<body>
+   <div class="divi"> 
+       <ul>
+          <li> <i class="fa-solid fa-house"></i></i>Home</li>
+		  <li><i class="fa-solid fa-bag-shopping"></i> Produtos
+		      <ul>
+		         <li> <i class="fa-solid fa-user-large"></i> Para Pele </li>
+		         <li> <i class="fa-solid fa-eye"></i> Para os Olhos </li>
+		         <li> <i class="fa-solid fa-bold"></i> Para Boca </li>
+		         <li> <i class="fa-solid fa-fire-flame-simple"></i> Para o Corpo</li>
+		      </ul>
+		  </li>
+		  <li> <i class="fa-solid fa-door-open"></i> Explorar
+		      <ul>
+			     <li> <i class="fa-solid fa-face-smile-beam"></i> Rosto </li>
+				 <li> <i class="fa-solid fa-person-dress"></i> Corpo </li>
+			   </ul>
+		  </li>
+		  <li> <i class="fa-solid fa-comment-dots"></i> Contato </li>
+       </ul>
+   </div>
+
+	
+</body>
+</html>
+	

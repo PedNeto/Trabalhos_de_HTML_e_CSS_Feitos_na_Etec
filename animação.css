@@ -1,0 +1,39 @@
+.fade-in {
+    transition: 2s;
+    border: #000 1px solid;
+    width: 400px;
+    background-color: #930;
+    color: #fff;
+}
+
+.fade-in:hover {
+    opacity: 0.1;
+    color: #000;
+}
+
+.zoom-mais {
+    transition: 0.5s;
+    border: #000 1px solid;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.zoom-mais:hover {
+    transform: scale(-1);
+}
+
+.rodar {
+    transition: 02s;
+    border: #000 1px solid;
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    background-color: red;
+}
+
+.rodar:hover {
+    transform: rotateZ(360deg) scale(2);
+    color: #fff;
+    width: 200px;
+    height: 300px;
+}

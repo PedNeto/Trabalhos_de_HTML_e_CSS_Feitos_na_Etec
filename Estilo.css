@@ -1,0 +1,22 @@
+.titulo{
+    color: blue;
+    font-size: 30px;
+
+}
+
+.texto{
+    background-color: green;
+    font-family: Courier;
+    text-align: center;
+}
+
+.rodape{
+    font-size: 12px;
+    text-align: right;
+}
+
+.textogrande{
+   font-size: 50px;
+    
+
+}

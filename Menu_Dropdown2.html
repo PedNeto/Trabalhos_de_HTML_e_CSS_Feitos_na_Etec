@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	
+	<meta charset="utf-8"/>
+	
+	<title>Menu Dropdown</title>
+	<link rel="icon" href="file:///C:/Users/guilh/OneDrive/Área%20de%20Trabalho/Profª%20Miriam%20P.W.L/Modelos%20HTML/icon.jpg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+	   * {
+			margin:0;
+			
+			padding:0;
+		}
+		
+		body {
+			background-image: url(file:///media/usuario/mb%20drive/Professora-miriam/menus/capa.png);
+			background-repeat: no-repeat;
+			background-size: 0;
+			}
+			
+		.menu ul li {
+			background-color: rgb(70,130,180); 
+			width: 188px;
+			float: left;
+			display: inline-block;
+			font-size: 21px;
+			text-align: center;
+			line-height: 35px;
+		}
+		
+		.menu ul li:hover{
+			background-color: #87CEFA;
+		}	
+		
+		.menu ul ul {
+			display: none;
+		}
+		
+		.menu ul li:hover ul {
+			display: block;
+		} 
+				
+	</style>
+			
+</head>
+<body>
+<!-- tabela de cores color picker -->
+	
+	
+	<div class="menu">
+		<ul>
+			<li><i class="fa-solid fa-house"></i> Home </li>
+			<li> <i class="fa-solid fa-map-location"></i> Empresa</li>
+				<ul>				
+					<li> Quem Somos </li>   
+				</ul>
+			</li>
+			<li> <i class="fa-brands fa-chromecast"></i> Produtos 
+				<ul> 
+					<li><i class="fa-solid fa-satellite-dish"></i> Rastreadores Via Satélites </li>
+					<li><i class="fa-solid fa-chalkboard-user"></i> Logística </li>
+					<li><i class="fa-solid fa-chart-line"></i> Relatórios </li>
+					<li> <i class="fa-solid fa-file-waveform"></i> Dashboard </li>
+				</ul>
+			</li>
+			
+			<li><i class="fa-solid fa-phone"></i> Contato 
+			<ul> 
+				<li> 19-8827-5620 </li>
+				<li><i class="fa-brands fa-whatsapp"></i> whatsapp </li>
+				<li> 19-99979-5026 </li>
+			</ul>
+			
+		</ul> 
+	</div>
+	
+
+	
+</body>
+</html>

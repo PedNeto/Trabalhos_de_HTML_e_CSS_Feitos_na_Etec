@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="mostradados.php" method="post" enctype="multipart/form-data">
+
+        Entre com seu nome:
+        <input type="text" name="nome" size="50" maxlength="50" placeholder="First name"></p>
+
+        Entre com sua idade:
+        <input type="number" name="idade" size="10" maxlength="10"></p>
+
+        Senha:
+        <input type="senha" type="password" size="20" maxlength="20"></p>
+
+        <p style="font-size: 40px;">
+            Estado Civil:<br />
+            <input name="estadocivil" type="radio" value="casado" checked />Casado
+            <input name="estadocivil" type="radio" value="solteiro" />Solteiro
+            <input name="estadocivil" type="radio" value="divorciado" />Divorciado
+        </p>
+        </p>
+        <p>Gosta de qual esporte?</p>
+        <p style="font-size: 40px;">
+            <input name="futebol" type="checkbox" value="futebol">Futebol
+            <input name="volei" type="checkbox" value="volei" checked>Volei
+            <input name="basquete" type="checkbox" value="basquete">Basquete
+            <input name="tenis" type="checkbox" value="tenis">Tenis
+            <input name="mma" type="checkbox" value="mma">MMA
+        </p>
+
+        <p style="font-family: 'Lucida Sans;">
+            Estado:
+
+            <select name="estado">
+                <option value="">Selecione um</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="SC">Santa Catarina</option>
+            </select>
+        </p>
+        <p>
+            <input name="oculto" type="hidden" value="Resolvi aparecer">
+        </p>
+        <p>
+            Obs:<br>
+            <textarea name="obs" cols="45" rows="6" maxlength="500"></textarea>
+        </p>
+        <p>
+            Arquivo<br>
+            <input type="file" name="arquivo">
+        </p>
+        <button type="button" name="botao" onmousemove="alert('Hello Word')">
+            Clique aqu!</button>
+        <p>
+
+            Email: <input name="email" type="email" size="20" maxlength="20" required>
+        <p>
+
+            Quantidade (entre 1 e 5)
+            <input type="number" name="qtde" min="1" max="5">
+        <p>
+
+            Cores: <input type="color" name="cor" value="#f00">
+        <p>
+
+            Intervalo: <input type="range" name="pontos" min="0" max="10">
+        <p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+    </form>
+</body>
+
+</html>

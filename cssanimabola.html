@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anima Bola</title>
+    <style>
+        .espaco{
+            margin-top: 30px;
+        }
+        .bola1 {
+            animation: bola1 4s infinite;
+            position: relative;
+        }
+
+        @keyframes bola1 {
+            from {
+                left: 0px;
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(960deg);
+            }
+        }
+
+        .bola2 {
+            animation: bola2 3s infinite;
+            position: relative;
+        }
+
+        @keyframes bola2 {
+            from {
+                left: 0px;
+                transform: rotate(0deg);
+            }
+
+            to {
+                left: 600px;
+                transform: rotate(960deg);
+            }
+        }
+
+        .bola3 {
+            position: relative;
+            animation: bola3 3s infinite;
+        }
+
+        @keyframes bola3 {
+            0% {
+                left: 0px;
+                transform: rotate(0deg);
+            }
+
+            50% {
+                left: 600px;
+                transform: rotate(960deg);
+            }
+            100%{
+                left: 0px;
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="espaco">
+        <img class="bola1" src="main-qimg-2cfd216592a28a7b01f19e5b2a6ff06f.png" width="10%">
+    </div>
+    <div class="espaco">
+        <img class="bola2" src="download.png" width="10%">
+    </div>
+    <div class="espaco">
+        <img class="bola3" src="download.png" width="10%">
+    </div>
+</body>
+
+</html>

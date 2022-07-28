@@ -1,0 +1,77 @@
+body{
+    background-color: #ebebeb;
+}
+.principal{
+    border: solid 0px #03c;
+    width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: #000 2px 2px 2px 2px;
+    border-radius: 10px 10px 10px 10px;
+}
+.cabecalho{
+    float: left;
+    width: 1000px;
+    border: #00c 1px solid;
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(universo-nasa-halloween.jpg);
+    background-size: cover;
+    height: 180px;
+    text-shadow: #000 2px 2px;
+}
+.direita{
+    float: left;
+    width: 207px;
+    top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border: solid 1px #03c;
+}
+.centro{
+    float: left;
+    width: 250px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #03c;
+    text-align: justify;
+    border: solid 1px #03c;
+    margin: 10px;
+}
+.esquerda{
+    float: left;
+    width: 225px;
+    margin-right: 0px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding-right: 10px;
+    border: solid 1px #03c;
+}
+.rodape{
+    clear: both;
+    background-color: #036;
+    color: #fff;
+    text-align: right;
+    padding-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 12px;
+    height: 30px;
+    vertical-align: middle;
+}
+.menu{
+    float: left;
+    width: 990px;
+    padding: 5px;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #03c;
+}
